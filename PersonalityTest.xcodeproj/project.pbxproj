@@ -14,6 +14,8 @@
 		D3908CB4292BB2E2000768D7 /* PersonalityTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CB3292BB2E2000768D7 /* PersonalityTestTests.swift */; };
 		D3908CBE292BB2E2000768D7 /* PersonalityTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CBD292BB2E2000768D7 /* PersonalityTestUITests.swift */; };
 		D3908CC0292BB2E2000768D7 /* PersonalityTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CBF292BB2E2000768D7 /* PersonalityTestUITestsLaunchTests.swift */; };
+		D3908CD1292BB3A6000768D7 /* NewTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CD0292BB3A6000768D7 /* NewTestView.swift */; };
+		D3908CD3292BB3B4000768D7 /* NewTestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CD2292BB3B4000768D7 /* NewTestViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		D3908CB9292BB2E2000768D7 /* PersonalityTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonalityTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3908CBD292BB2E2000768D7 /* PersonalityTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalityTestUITests.swift; sourceTree = "<group>"; };
 		D3908CBF292BB2E2000768D7 /* PersonalityTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalityTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D3908CD0292BB3A6000768D7 /* NewTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTestView.swift; sourceTree = "<group>"; };
+		D3908CD2292BB3B4000768D7 /* NewTestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTestViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,10 @@
 				D3908CA2292BB2E0000768D7 /* PersonalityTestApp.swift */,
 				D3908CA4292BB2E0000768D7 /* ContentView.swift */,
 				D3908CA6292BB2E2000768D7 /* Assets.xcassets */,
+				D3908CCF292BB389000768D7 /* NewTest */,
+				D3908CCE292BB32D000768D7 /* CustomViews */,
+				D3908CCD292BB31A000768D7 /* Services */,
+				D3908CCC292BB303000768D7 /* Models */,
 				D3908CA8292BB2E2000768D7 /* Preview Content */,
 			);
 			path = PersonalityTest;
@@ -125,6 +133,36 @@
 				D3908CBF292BB2E2000768D7 /* PersonalityTestUITestsLaunchTests.swift */,
 			);
 			path = PersonalityTestUITests;
+			sourceTree = "<group>";
+		};
+		D3908CCC292BB303000768D7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D3908CCD292BB31A000768D7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D3908CCE292BB32D000768D7 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		D3908CCF292BB389000768D7 /* NewTest */ = {
+			isa = PBXGroup;
+			children = (
+				D3908CD0292BB3A6000768D7 /* NewTestView.swift */,
+				D3908CD2292BB3B4000768D7 /* NewTestViewModel.swift */,
+			);
+			path = NewTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +296,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3908CA5292BB2E0000768D7 /* ContentView.swift in Sources */,
+				D3908CD1292BB3A6000768D7 /* NewTestView.swift in Sources */,
 				D3908CA3292BB2E0000768D7 /* PersonalityTestApp.swift in Sources */,
+				D3908CD3292BB3B4000768D7 /* NewTestViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
