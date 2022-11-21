@@ -16,6 +16,11 @@
 		D3908CC0292BB2E2000768D7 /* PersonalityTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CBF292BB2E2000768D7 /* PersonalityTestUITestsLaunchTests.swift */; };
 		D3908CD1292BB3A6000768D7 /* NewTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CD0292BB3A6000768D7 /* NewTestView.swift */; };
 		D3908CD3292BB3B4000768D7 /* NewTestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CD2292BB3B4000768D7 /* NewTestViewModel.swift */; };
+		D3908CD5292BB6DD000768D7 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CD4292BB6DD000768D7 /* Question.swift */; };
+		D3908CD7292BB6EB000768D7 /* QuestionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CD6292BB6EB000768D7 /* QuestionType.swift */; };
+		D3908CD9292BB6F8000768D7 /* QuestionAnswer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CD8292BB6F8000768D7 /* QuestionAnswer.swift */; };
+		D3908CDB292BB719000768D7 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CDA292BB719000768D7 /* QuestionView.swift */; };
+		D3908CDD292BB72F000768D7 /* PersonalityTestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CDC292BB72F000768D7 /* PersonalityTestService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +53,11 @@
 		D3908CBF292BB2E2000768D7 /* PersonalityTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalityTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D3908CD0292BB3A6000768D7 /* NewTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTestView.swift; sourceTree = "<group>"; };
 		D3908CD2292BB3B4000768D7 /* NewTestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTestViewModel.swift; sourceTree = "<group>"; };
+		D3908CD4292BB6DD000768D7 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		D3908CD6292BB6EB000768D7 /* QuestionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionType.swift; sourceTree = "<group>"; };
+		D3908CD8292BB6F8000768D7 /* QuestionAnswer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionAnswer.swift; sourceTree = "<group>"; };
+		D3908CDA292BB719000768D7 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		D3908CDC292BB72F000768D7 /* PersonalityTestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalityTestService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +148,9 @@
 		D3908CCC292BB303000768D7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D3908CD4292BB6DD000768D7 /* Question.swift */,
+				D3908CD6292BB6EB000768D7 /* QuestionType.swift */,
+				D3908CD8292BB6F8000768D7 /* QuestionAnswer.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -145,6 +158,7 @@
 		D3908CCD292BB31A000768D7 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				D3908CDC292BB72F000768D7 /* PersonalityTestService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -152,6 +166,7 @@
 		D3908CCE292BB32D000768D7 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				D3908CDA292BB719000768D7 /* QuestionView.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -295,7 +310,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3908CDB292BB719000768D7 /* QuestionView.swift in Sources */,
+				D3908CD5292BB6DD000768D7 /* Question.swift in Sources */,
+				D3908CDD292BB72F000768D7 /* PersonalityTestService.swift in Sources */,
+				D3908CD7292BB6EB000768D7 /* QuestionType.swift in Sources */,
 				D3908CA5292BB2E0000768D7 /* ContentView.swift in Sources */,
+				D3908CD9292BB6F8000768D7 /* QuestionAnswer.swift in Sources */,
 				D3908CD1292BB3A6000768D7 /* NewTestView.swift in Sources */,
 				D3908CA3292BB2E0000768D7 /* PersonalityTestApp.swift in Sources */,
 				D3908CD3292BB3B4000768D7 /* NewTestViewModel.swift in Sources */,
