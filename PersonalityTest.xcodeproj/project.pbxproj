@@ -17,7 +17,6 @@
 		D3908CD1292BB3A6000768D7 /* NewTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CD0292BB3A6000768D7 /* NewTestView.swift */; };
 		D3908CD3292BB3B4000768D7 /* NewTestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CD2292BB3B4000768D7 /* NewTestViewModel.swift */; };
 		D3908CD5292BB6DD000768D7 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CD4292BB6DD000768D7 /* Question.swift */; };
-		D3908CD7292BB6EB000768D7 /* QuestionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CD6292BB6EB000768D7 /* QuestionType.swift */; };
 		D3908CD9292BB6F8000768D7 /* QuestionAnswer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CD8292BB6F8000768D7 /* QuestionAnswer.swift */; };
 		D3908CDB292BB719000768D7 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CDA292BB719000768D7 /* QuestionView.swift */; };
 		D3908CDD292BB72F000768D7 /* LocalApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CDC292BB72F000768D7 /* LocalApiService.swift */; };
@@ -34,6 +33,7 @@
 		D3908CF8292BDE1C000768D7 /* NewTestViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CF7292BDE1C000768D7 /* NewTestViewModelTests.swift */; };
 		D3908CFA292BDE36000768D7 /* ScoreCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CF9292BDE36000768D7 /* ScoreCalculatorTests.swift */; };
 		D3908CFC292BDE60000768D7 /* LocalApiServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CFB292BDE60000768D7 /* LocalApiServiceTests.swift */; };
+		D3908CFE292CD076000768D7 /* DataSourceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CFD292CD075000768D7 /* DataSourceFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,7 +67,6 @@
 		D3908CD0292BB3A6000768D7 /* NewTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTestView.swift; sourceTree = "<group>"; };
 		D3908CD2292BB3B4000768D7 /* NewTestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTestViewModel.swift; sourceTree = "<group>"; };
 		D3908CD4292BB6DD000768D7 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
-		D3908CD6292BB6EB000768D7 /* QuestionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionType.swift; sourceTree = "<group>"; };
 		D3908CD8292BB6F8000768D7 /* QuestionAnswer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionAnswer.swift; sourceTree = "<group>"; };
 		D3908CDA292BB719000768D7 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		D3908CDC292BB72F000768D7 /* LocalApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalApiService.swift; sourceTree = "<group>"; };
@@ -84,6 +83,7 @@
 		D3908CF7292BDE1C000768D7 /* NewTestViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTestViewModelTests.swift; sourceTree = "<group>"; };
 		D3908CF9292BDE36000768D7 /* ScoreCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCalculatorTests.swift; sourceTree = "<group>"; };
 		D3908CFB292BDE60000768D7 /* LocalApiServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalApiServiceTests.swift; sourceTree = "<group>"; };
+		D3908CFD292CD075000768D7 /* DataSourceFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,7 +181,6 @@
 			isa = PBXGroup;
 			children = (
 				D3908CD4292BB6DD000768D7 /* Question.swift */,
-				D3908CD6292BB6EB000768D7 /* QuestionType.swift */,
 				D3908CD8292BB6F8000768D7 /* QuestionAnswer.swift */,
 				D3908CE1292BBC01000768D7 /* PersonalityType.swift */,
 				D3908CE3292BBC8E000768D7 /* User.swift */,
@@ -230,6 +229,7 @@
 			children = (
 				D3908CE5292BBE52000768D7 /* UserContext.swift */,
 				D3908CEC292BC797000768D7 /* ScoreCalculator.swift */,
+				D3908CFD292CD075000768D7 /* DataSourceFactory.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -377,7 +377,6 @@
 				D3908CD5292BB6DD000768D7 /* Question.swift in Sources */,
 				D3908CDD292BB72F000768D7 /* LocalApiService.swift in Sources */,
 				D3908CE0292BBBC7000768D7 /* LaunchViewModel.swift in Sources */,
-				D3908CD7292BB6EB000768D7 /* QuestionType.swift in Sources */,
 				D3908CF4292BCE71000768D7 /* UIAnswer.swift in Sources */,
 				D3908CE6292BBE52000768D7 /* UserContext.swift in Sources */,
 				D3908CEF292BCDFD000768D7 /* AnswerView.swift in Sources */,
@@ -390,6 +389,7 @@
 				D3908CD1292BB3A6000768D7 /* NewTestView.swift in Sources */,
 				D3908CA3292BB2E0000768D7 /* PersonalityTestApp.swift in Sources */,
 				D3908CEA292BC183000768D7 /* ApiService.swift in Sources */,
+				D3908CFE292CD076000768D7 /* DataSourceFactory.swift in Sources */,
 				D3908CD3292BB3B4000768D7 /* NewTestViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

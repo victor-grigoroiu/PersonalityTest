@@ -8,7 +8,9 @@
 import Foundation
 
 protocol ApiService {
-    func fetchData() -> [Question]
-    func updateQuestion(question: Question, answer: QuestionAnswer)
-    func getScore() -> Int
+    func fetchUserData(completion: (User) -> Void)
+    func updateUserData(personalityType: PersonalityType, completion: (User) -> Void)
+    
+    func fetchPersonalityTest(completion: ([Question]) -> Void)
+    func updateQuestion(question: Question, answer: QuestionAnswer, completion: ([Question]) -> Void)
 }

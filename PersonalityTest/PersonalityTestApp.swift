@@ -11,7 +11,10 @@ import SwiftUI
 struct PersonalityTestApp: App {
     var body: some Scene {
         WindowGroup {
-            LaunchView()
+            let apiService = LocalApiService()
+            let launchViewModel = LaunchViewModel(apiService: apiService, userContext: UserContext.shared)
+            
+            LaunchView(viewModel: launchViewModel)
         }
     }
 }

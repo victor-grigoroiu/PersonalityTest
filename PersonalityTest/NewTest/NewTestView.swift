@@ -8,48 +8,68 @@
 import SwiftUI
 
 struct NewTestView: View {
-    @State var uiQuestion: UIQuestion
-    @State var answered: Bool
+    @ObservedObject private var viewModel: NewTestViewModel
+    
+    init(viewModel: NewTestViewModel) {
+        self.viewModel = viewModel
+    }
     
     var body: some View {
         VStack {
-            if answered {
-                HStack {
-                    Text("Your personality test result is:")
-                    Text("Introvert")
-                        .font(.headline)
-                        .bold()
-                }
+            if viewModel.showLoading {
+                ProgressView()
+                    .progressViewStyle(CircularProgressViewStyle())
             } else {
-                QuestionView(uiQuestion: $uiQuestion)
-                HStack {
-                    Spacer()
-                    Button("Next question", action: {
+                if viewModel.allQuestionsAnswered {
+                    VStack{
+                        HStack {
+                            Text("Your personality test result is:")
+                            Text(viewModel.personalityType.rawValue)
+                                .font(.headline)
+                                .bold()
+                        }
+                        .padding(.vertical, 20)
                         
-                    })
-                    .disabled(!uiQuestion.answered)
-                    .padding()
+                        Button(action: {
+                            self.viewModel.newTest()
+                        }){
+                            Text("Repeat the test")
+                        }
+                    }
+                } else {
+                    if viewModel.currentQuestion.isValid  {
+                        QuestionView(uiQuestion: $viewModel.currentQuestion)
+                        HStack {
+                            Spacer()
+                            Button("Next question", action: {
+                                self.viewModel.goToTheNextQuestion()
+                            })
+                            .disabled(!viewModel.currentQuestion.answered)
+                            .padding()
+                        }
+                        .padding(.bottom, 20)
+                        
+                        HStack {
+                            Text(viewModel.currentQuestionString)
+                        }
+                        .padding()
+                    } else {
+                        Text("Issues with personality test data")
+                    }
                 }
-                .padding(.bottom, 20)
-                
-                HStack {
-                    Text("1 / 5")
-                }
-                .padding()
             }
+        }
+        .onAppear {
+            self.viewModel.newTest()
+        }
+        .alert("An error occured. Try again", isPresented: $viewModel.showingErrorAlert) {
+            Button("OK", role: .cancel) { }
         }
     }
 }
 
 struct NewTestView_Previews: PreviewProvider {
     static var previews: some View {
-        let uiQuestion = UIQuestion(id: "1", title: "This is a random question", answers: [
-            UIAnswer(id: "1", title: "Question answer 1", selected: false),
-            UIAnswer(id: "2", title: "Question answer 2", selected: false),
-            UIAnswer(id: "3", title: "Question answer 3", selected: false),
-            UIAnswer(id: "4", title: "Question answer 4", selected: false)
-        ], answered: false)
-        
-        NewTestView(uiQuestion: uiQuestion, answered: true)
+        NewTestView(viewModel: NewTestViewModel(apiService: LocalApiService(), scoreCalculator: ScoreCalculator(), userContext: UserContext.shared))
     }
 }

@@ -7,7 +7,8 @@
 
 import Foundation
 
-enum PersonalityType {
-    case extrovert
-    case introvert
+enum PersonalityType: String {
+    case extrovert = "Extrovert"
+    case introvert = "Introvert"
+    case unknown = "Unknown"
 }

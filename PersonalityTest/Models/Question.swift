@@ -10,7 +10,6 @@ import Foundation
 struct Question {
     let id: String
     let title: String
-    let type: QuestionType
     let answersList: [QuestionAnswer]
     let selectedAnswer: QuestionAnswer?
 }
