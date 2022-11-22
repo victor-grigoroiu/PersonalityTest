@@ -11,7 +11,7 @@ import SwiftUI
 struct PersonalityTestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LaunchView()
         }
     }
 }

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D3908CA3292BB2E0000768D7 /* PersonalityTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CA2292BB2E0000768D7 /* PersonalityTestApp.swift */; };
-		D3908CA5292BB2E0000768D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CA4292BB2E0000768D7 /* ContentView.swift */; };
+		D3908CA5292BB2E0000768D7 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CA4292BB2E0000768D7 /* LaunchView.swift */; };
 		D3908CA7292BB2E2000768D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3908CA6292BB2E2000768D7 /* Assets.xcassets */; };
 		D3908CAA292BB2E2000768D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3908CA9292BB2E2000768D7 /* Preview Assets.xcassets */; };
 		D3908CB4292BB2E2000768D7 /* PersonalityTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CB3292BB2E2000768D7 /* PersonalityTestTests.swift */; };
@@ -20,7 +20,20 @@
 		D3908CD7292BB6EB000768D7 /* QuestionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CD6292BB6EB000768D7 /* QuestionType.swift */; };
 		D3908CD9292BB6F8000768D7 /* QuestionAnswer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CD8292BB6F8000768D7 /* QuestionAnswer.swift */; };
 		D3908CDB292BB719000768D7 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CDA292BB719000768D7 /* QuestionView.swift */; };
-		D3908CDD292BB72F000768D7 /* PersonalityTestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CDC292BB72F000768D7 /* PersonalityTestService.swift */; };
+		D3908CDD292BB72F000768D7 /* LocalApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CDC292BB72F000768D7 /* LocalApiService.swift */; };
+		D3908CE0292BBBC7000768D7 /* LaunchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CDF292BBBC7000768D7 /* LaunchViewModel.swift */; };
+		D3908CE2292BBC01000768D7 /* PersonalityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CE1292BBC01000768D7 /* PersonalityType.swift */; };
+		D3908CE4292BBC8E000768D7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CE3292BBC8E000768D7 /* User.swift */; };
+		D3908CE6292BBE52000768D7 /* UserContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CE5292BBE52000768D7 /* UserContext.swift */; };
+		D3908CEA292BC183000768D7 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CE9292BC183000768D7 /* ApiService.swift */; };
+		D3908CED292BC797000768D7 /* ScoreCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CEC292BC797000768D7 /* ScoreCalculator.swift */; };
+		D3908CEF292BCDFD000768D7 /* AnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CEE292BCDFD000768D7 /* AnswerView.swift */; };
+		D3908CF2292BCE65000768D7 /* UIQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CF1292BCE65000768D7 /* UIQuestion.swift */; };
+		D3908CF4292BCE71000768D7 /* UIAnswer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CF3292BCE71000768D7 /* UIAnswer.swift */; };
+		D3908CF6292BDDF0000768D7 /* LaunchViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CF5292BDDF0000768D7 /* LaunchViewModelTests.swift */; };
+		D3908CF8292BDE1C000768D7 /* NewTestViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CF7292BDE1C000768D7 /* NewTestViewModelTests.swift */; };
+		D3908CFA292BDE36000768D7 /* ScoreCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CF9292BDE36000768D7 /* ScoreCalculatorTests.swift */; };
+		D3908CFC292BDE60000768D7 /* LocalApiServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CFB292BDE60000768D7 /* LocalApiServiceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +56,7 @@
 /* Begin PBXFileReference section */
 		D3908C9F292BB2E0000768D7 /* PersonalityTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalityTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3908CA2292BB2E0000768D7 /* PersonalityTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalityTestApp.swift; sourceTree = "<group>"; };
-		D3908CA4292BB2E0000768D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D3908CA4292BB2E0000768D7 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		D3908CA6292BB2E2000768D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3908CA9292BB2E2000768D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D3908CAF292BB2E2000768D7 /* PersonalityTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonalityTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,7 +70,20 @@
 		D3908CD6292BB6EB000768D7 /* QuestionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionType.swift; sourceTree = "<group>"; };
 		D3908CD8292BB6F8000768D7 /* QuestionAnswer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionAnswer.swift; sourceTree = "<group>"; };
 		D3908CDA292BB719000768D7 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
-		D3908CDC292BB72F000768D7 /* PersonalityTestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalityTestService.swift; sourceTree = "<group>"; };
+		D3908CDC292BB72F000768D7 /* LocalApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalApiService.swift; sourceTree = "<group>"; };
+		D3908CDF292BBBC7000768D7 /* LaunchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewModel.swift; sourceTree = "<group>"; };
+		D3908CE1292BBC01000768D7 /* PersonalityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalityType.swift; sourceTree = "<group>"; };
+		D3908CE3292BBC8E000768D7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D3908CE5292BBE52000768D7 /* UserContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserContext.swift; sourceTree = "<group>"; };
+		D3908CE9292BC183000768D7 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		D3908CEC292BC797000768D7 /* ScoreCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCalculator.swift; sourceTree = "<group>"; };
+		D3908CEE292BCDFD000768D7 /* AnswerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerView.swift; sourceTree = "<group>"; };
+		D3908CF1292BCE65000768D7 /* UIQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIQuestion.swift; sourceTree = "<group>"; };
+		D3908CF3292BCE71000768D7 /* UIAnswer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAnswer.swift; sourceTree = "<group>"; };
+		D3908CF5292BDDF0000768D7 /* LaunchViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewModelTests.swift; sourceTree = "<group>"; };
+		D3908CF7292BDE1C000768D7 /* NewTestViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTestViewModelTests.swift; sourceTree = "<group>"; };
+		D3908CF9292BDE36000768D7 /* ScoreCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCalculatorTests.swift; sourceTree = "<group>"; };
+		D3908CFB292BDE60000768D7 /* LocalApiServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalApiServiceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,12 +135,14 @@
 			isa = PBXGroup;
 			children = (
 				D3908CA2292BB2E0000768D7 /* PersonalityTestApp.swift */,
-				D3908CA4292BB2E0000768D7 /* ContentView.swift */,
 				D3908CA6292BB2E2000768D7 /* Assets.xcassets */,
+				D3908CDE292BBB74000768D7 /* LaunchScreen */,
 				D3908CCF292BB389000768D7 /* NewTest */,
 				D3908CCE292BB32D000768D7 /* CustomViews */,
 				D3908CCD292BB31A000768D7 /* Services */,
+				D3908CF0292BCE51000768D7 /* UIModels */,
 				D3908CCC292BB303000768D7 /* Models */,
+				D3908CEB292BC1B1000768D7 /* Utils */,
 				D3908CA8292BB2E2000768D7 /* Preview Content */,
 			);
 			path = PersonalityTest;
@@ -132,6 +160,10 @@
 			isa = PBXGroup;
 			children = (
 				D3908CB3292BB2E2000768D7 /* PersonalityTestTests.swift */,
+				D3908CF5292BDDF0000768D7 /* LaunchViewModelTests.swift */,
+				D3908CF7292BDE1C000768D7 /* NewTestViewModelTests.swift */,
+				D3908CF9292BDE36000768D7 /* ScoreCalculatorTests.swift */,
+				D3908CFB292BDE60000768D7 /* LocalApiServiceTests.swift */,
 			);
 			path = PersonalityTestTests;
 			sourceTree = "<group>";
@@ -151,6 +183,8 @@
 				D3908CD4292BB6DD000768D7 /* Question.swift */,
 				D3908CD6292BB6EB000768D7 /* QuestionType.swift */,
 				D3908CD8292BB6F8000768D7 /* QuestionAnswer.swift */,
+				D3908CE1292BBC01000768D7 /* PersonalityType.swift */,
+				D3908CE3292BBC8E000768D7 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -158,7 +192,8 @@
 		D3908CCD292BB31A000768D7 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				D3908CDC292BB72F000768D7 /* PersonalityTestService.swift */,
+				D3908CDC292BB72F000768D7 /* LocalApiService.swift */,
+				D3908CE9292BC183000768D7 /* ApiService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -167,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				D3908CDA292BB719000768D7 /* QuestionView.swift */,
+				D3908CEE292BCDFD000768D7 /* AnswerView.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -178,6 +214,33 @@
 				D3908CD2292BB3B4000768D7 /* NewTestViewModel.swift */,
 			);
 			path = NewTest;
+			sourceTree = "<group>";
+		};
+		D3908CDE292BBB74000768D7 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D3908CA4292BB2E0000768D7 /* LaunchView.swift */,
+				D3908CDF292BBBC7000768D7 /* LaunchViewModel.swift */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		D3908CEB292BC1B1000768D7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D3908CE5292BBE52000768D7 /* UserContext.swift */,
+				D3908CEC292BC797000768D7 /* ScoreCalculator.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D3908CF0292BCE51000768D7 /* UIModels */ = {
+			isa = PBXGroup;
+			children = (
+				D3908CF1292BCE65000768D7 /* UIQuestion.swift */,
+				D3908CF3292BCE71000768D7 /* UIAnswer.swift */,
+			);
+			path = UIModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,12 +375,21 @@
 			files = (
 				D3908CDB292BB719000768D7 /* QuestionView.swift in Sources */,
 				D3908CD5292BB6DD000768D7 /* Question.swift in Sources */,
-				D3908CDD292BB72F000768D7 /* PersonalityTestService.swift in Sources */,
+				D3908CDD292BB72F000768D7 /* LocalApiService.swift in Sources */,
+				D3908CE0292BBBC7000768D7 /* LaunchViewModel.swift in Sources */,
 				D3908CD7292BB6EB000768D7 /* QuestionType.swift in Sources */,
-				D3908CA5292BB2E0000768D7 /* ContentView.swift in Sources */,
+				D3908CF4292BCE71000768D7 /* UIAnswer.swift in Sources */,
+				D3908CE6292BBE52000768D7 /* UserContext.swift in Sources */,
+				D3908CEF292BCDFD000768D7 /* AnswerView.swift in Sources */,
+				D3908CA5292BB2E0000768D7 /* LaunchView.swift in Sources */,
 				D3908CD9292BB6F8000768D7 /* QuestionAnswer.swift in Sources */,
+				D3908CE2292BBC01000768D7 /* PersonalityType.swift in Sources */,
+				D3908CF2292BCE65000768D7 /* UIQuestion.swift in Sources */,
+				D3908CE4292BBC8E000768D7 /* User.swift in Sources */,
+				D3908CED292BC797000768D7 /* ScoreCalculator.swift in Sources */,
 				D3908CD1292BB3A6000768D7 /* NewTestView.swift in Sources */,
 				D3908CA3292BB2E0000768D7 /* PersonalityTestApp.swift in Sources */,
+				D3908CEA292BC183000768D7 /* ApiService.swift in Sources */,
 				D3908CD3292BB3B4000768D7 /* NewTestViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,7 +398,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3908CF8292BDE1C000768D7 /* NewTestViewModelTests.swift in Sources */,
 				D3908CB4292BB2E2000768D7 /* PersonalityTestTests.swift in Sources */,
+				D3908CFA292BDE36000768D7 /* ScoreCalculatorTests.swift in Sources */,
+				D3908CFC292BDE60000768D7 /* LocalApiServiceTests.swift in Sources */,
+				D3908CF6292BDDF0000768D7 /* LaunchViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +561,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -514,6 +591,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

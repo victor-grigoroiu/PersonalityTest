@@ -1,5 +1,5 @@
 //
-//  QuestionAnswer.swift
+//  UIAnswer.swift
 //  PersonalityTest
 //
 //  Created by Victor Grigoroiu on 21.11.2022.
@@ -7,8 +7,9 @@
 
 import Foundation
 
-struct QuestionAnswer {
+struct UIAnswer: Identifiable, Hashable {
     let id: String
     let title: String
-    let score: Int
+    
+    var selected: Bool
 }
