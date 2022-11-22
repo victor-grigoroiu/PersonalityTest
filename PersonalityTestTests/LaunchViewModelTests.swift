@@ -27,7 +27,6 @@ final class LaunchViewModelTests: XCTestCase {
         let expectation = XCTestExpectation(description: "testUserName")
         
         vm.$username
-            .dropFirst()
             .sink { value in
                 XCTAssertTrue(value == "User")
                 expectation.fulfill()
@@ -42,7 +41,6 @@ final class LaunchViewModelTests: XCTestCase {
         let expectation = XCTestExpectation(description: "testPersonalityType")
         
         vm.$personalityType
-            .dropFirst()
             .sink { value in
                 XCTAssertTrue(value == "Unknown")
                 expectation.fulfill()
@@ -58,7 +56,6 @@ final class LaunchViewModelTests: XCTestCase {
         let expectation = XCTestExpectation(description: "testRefreshView")
         
         vm.$username
-            .dropFirst()
             .sink { value in
                 UserContext.shared.user = User.init(username: "User", personalityType: .introvert)
                 vm.refreshView()
