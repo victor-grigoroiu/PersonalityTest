@@ -37,11 +37,9 @@ class LaunchViewModel: ObservableObject {
         self.apiService.fetchUserData(completion: { [weak self] user in
             self?.showLoading = false
             
-            DispatchQueue.main.async {
-                self?.username = user.username
-                self?.personalityType = user.personalityType.rawValue
-                self?.userContext.user = user
-            }
+            self?.username = user.username
+            self?.personalityType = user.personalityType.rawValue
+            self?.userContext.user = user
         })
     }
 }

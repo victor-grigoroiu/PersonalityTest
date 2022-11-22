@@ -48,7 +48,7 @@ struct LaunchView: View {
                     Spacer()
                     
                     VStack(spacing: 10) {
-                        Text("Your last personality test result is:")
+                        Text("Your last personality test result is")
                         Text("\(viewModel.personalityType)")
                             .font(.title2)
                             .bold()

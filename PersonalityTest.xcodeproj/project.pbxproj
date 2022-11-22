@@ -34,6 +34,7 @@
 		D3908CFA292BDE36000768D7 /* ScoreCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CF9292BDE36000768D7 /* ScoreCalculatorTests.swift */; };
 		D3908CFC292BDE60000768D7 /* LocalApiServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CFB292BDE60000768D7 /* LocalApiServiceTests.swift */; };
 		D3908CFE292CD076000768D7 /* DataSourceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3908CFD292CD075000768D7 /* DataSourceFactory.swift */; };
+		D3908D08292D0AB0000768D7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3908D07292D0AB0000768D7 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,7 @@
 		D3908CF9292BDE36000768D7 /* ScoreCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCalculatorTests.swift; sourceTree = "<group>"; };
 		D3908CFB292BDE60000768D7 /* LocalApiServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalApiServiceTests.swift; sourceTree = "<group>"; };
 		D3908CFD292CD075000768D7 /* DataSourceFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceFactory.swift; sourceTree = "<group>"; };
+		D3908D07292D0AB0000768D7 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 			children = (
 				D3908CA2292BB2E0000768D7 /* PersonalityTestApp.swift */,
 				D3908CA6292BB2E2000768D7 /* Assets.xcassets */,
+				D3908D07292D0AB0000768D7 /* Localizable.strings */,
 				D3908CDE292BBB74000768D7 /* LaunchScreen */,
 				D3908CCF292BB389000768D7 /* NewTest */,
 				D3908CCE292BB32D000768D7 /* CustomViews */,
@@ -348,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3908CAA292BB2E2000768D7 /* Preview Assets.xcassets in Resources */,
+				D3908D08292D0AB0000768D7 /* Localizable.strings in Resources */,
 				D3908CA7292BB2E2000768D7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,6 +491,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -540,6 +545,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="PersonalityTest/en.lproj/Localizable.strings" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.0.1" build-num="14A400"/>
+    </header>
+    <body>
+      <trans-unit id="%@" xml:space="preserve">
+        <source>%@</source>
+        <target>%@</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="An error occured. Try again" xml:space="preserve">
+        <source>An error occured. Try again</source>
+        <target>An error occured. Try again</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Are you an introvert or an extrovert?" xml:space="preserve">
+        <source>Are you an introvert or an extrovert?</source>
+        <target>Are you an introvert or an extrovert?</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Are you curious to see if you are an introvert or extrovert personality type? Press on &quot;New Test&quot; and follow the questions." xml:space="preserve">
+        <source>Are you curious to see if you are an introvert or extrovert personality type? Press on "New Test" and follow the questions.</source>
+        <target>Are you curious to see if you are an introvert or extrovert personality type? Press on "New Test" and follow the questions.</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Hello %@" xml:space="preserve">
+        <source>Hello %@</source>
+        <target>Hello %@</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Issues with personality test data" xml:space="preserve">
+        <source>Issues with personality test data</source>
+        <target>Issues with personality test data</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="New Test" xml:space="preserve">
+        <source>New Test</source>
+        <target>New Test</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Next question" xml:space="preserve">
+        <source>Next question</source>
+        <target>Next question</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="OK" xml:space="preserve">
+        <source>OK</source>
+        <target>OK</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Personality Test" xml:space="preserve">
+        <source>Personality Test</source>
+        <target>Personality Test</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Repeat the test" xml:space="preserve">
+        <source>Repeat the test</source>
+        <target>Repeat the test</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Start Test" xml:space="preserve">
+        <source>Start Test</source>
+        <target>Start Test</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Your last personality test result is:" xml:space="preserve">
+        <source>Your last personality test result is:</source>
+        <target>Your last personality test result is:</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Your personality test result is:" xml:space="preserve">
+        <source>Your personality test result is:</source>
+        <target>Your personality test result is:</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="PersonalityTest/en.lproj/PersonalityTest-InfoPlist.strings" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.0.1" build-num="14A400"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName" xml:space="preserve">
+        <source>PersonalityTest</source>
+        <target>PersonalityTest</target>
+        <note>Bundle name</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
